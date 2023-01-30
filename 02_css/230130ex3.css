@@ -1,0 +1,3 @@
+h1:hover{color: red;}
+a:active{background-color: blue;}
+.focus:focus{background-color: orange;}

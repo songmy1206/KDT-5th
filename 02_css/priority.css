@@ -1,0 +1,7 @@
+/* #item{background-color: red !important;}
+.list{background-color: orange;}
+li{background-color: yellow;}
+*{background-color: lightgreen;} */
+
+body .list li:first-child{background-color: navy;}
+.list li.item{background-color: blue;}

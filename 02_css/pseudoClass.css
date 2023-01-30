@@ -1,0 +1,3 @@
+a:hover{color: red;}
+a:active{background-color: orange;}
+input:focus{background-color: orange;}

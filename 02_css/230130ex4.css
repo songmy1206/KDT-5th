@@ -1,0 +1,7 @@
+.zoo *:nth-child(2n){background-color: orange;} 
+.zoo p:first-child{background-color: purple;}
+.zoo *:not(.predator){background-color: green;}
+span.predator{background-color: red;}
+.zoo *:last-child{background-color: red;}
+span.predator:hover{background-color: yellow;}
+.zoo p:nth-child(3){background-color: blue;}
