@@ -1,0 +1,34 @@
+/* common */
+body{}
+a{text-decoration: none; color: #4a4a4a;}
+
+/* block */
+header{display: flex; justify-content: center; box-shadow: 0 2px 4px 0 rgba(207, 207, 207, .5);} /*box-shdow : ? y축 블러 두께*/
+header .inner{display: flex; width: 1200px; height: 64px; padding: 0 32px; justify-content: space-between; align-items: center;}
+
+/* 로고 */
+header .inner .header__logo{font-size: 32px; margin-right: 20px;}
+header .inner .header__logo a{font-family: 'Indie Flower', cursive; color: green;}
+header .inner .header__logo a i{}
+
+/* 메뉴 */
+header .inner .header__menu{font-size: 16px; height: 32px; display: flex; flex-shrink: 0;}
+header .inner .header__menu li{color: #4a4a4a; padding: 8px 16px; /*padding 상하8px 제거 후 line-height 32px;*/}
+header .inner .header__menu li a{}
+header .inner .header__menu li a:hover{color: #1dc078;}
+
+/* 공간 */
+header .inner .header__space{flex-grow: 1; flex-shrink: 0;}
+
+/* 검색 */
+header .inner .header__search{margin-right: 20px; height: 34px; position: relative; flex-shrink: 0;}
+header .inner .header__search input{box-sizing: border-box; width: 148px; height: 34px; padding: 5px 9px; font-size: 16px; color: gray; background-color: #f6f6f6; border-radius: 3px; border: none;}
+header .inner .header__search input:hover{border: 1px solid #c8c8c8;}
+header .inner .header__search input:focus{border: 1px solid #c8c8c8; outline-color: #1dc078;}
+header .inner .header__search i{/*transform: translateX(-30px);*/ position: absolute; height: 16px; right: 9px; margin: auto; top: 0; bottom: 0;}/*position:absolute 수직중앙정렬*/
+
+/* 로그인/회원가입 */
+header .inner .header__login--join{display: flex; height: 34px; gap: 10px; flex-shrink: 0;}/*item들 끼리 거리를 둘때 사용 : gap*/
+header .inner .header__login--join .btn{height: 34px; border: 1px solid #dbdbdb; box-sizing: border-box; padding: 9px; border-radius: 3px; cursor: pointer;}
+header .inner .header__login--join .btn.btn--login{color: #4a4a4a; background-color: white;}
+header .inner .header__login--join .btn.btn--register{color: white; background-color: #f77867;}
