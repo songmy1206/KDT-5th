@@ -12,7 +12,7 @@ let num2 = 5;
 num2 = num2 + 5;
 
 let num3 = 5;
-num += 5;
+num3 += 5;
 
 console.log("연산자 줄여쓰기", num2, num3);
 
@@ -31,5 +31,6 @@ let a = 5;
 let b = '5';
 
 console.log('비교연산자', a == b);
+console.log('비교연산자', a === b);
 
 

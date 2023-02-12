@@ -4,4 +4,4 @@ let opacity = 0.7;
 console.log(number);
 console.log(opacity);
 
-console.log(num * opacity);
+console.log(number * opacity);

@@ -56,3 +56,9 @@ if(gender === 'F' && name === 'Jane' || isAdultTom === true){
 }else{
   console.log('no');
 }
+
+if(gender === 'F' && (name === 'Jane' || isAdultTom === true)){
+  console.log('통과');
+}else{
+  console.log('no');
+}

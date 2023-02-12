@@ -1,15 +1,17 @@
 //club
+/** 
+let isAdult = true;
+let VIP = true;
+let isDrunken = true;
+let money = true;
 
-// let isAdult = true;
-// let VIP = false;
-// let isDrunken = true;
-// let money = true;
+if(((isAdult || VIP) && !isDrunken) || money){
+  console.log('yes');
+}else{
+  console.log('no');
+}*/
 
-// if(((isAdult || VIP) && isDrunken) || money ){
-//   console.log('통과');
-// }else{
-//   console.log('no');
-// }
+//???,,,
 
 const smy = {
   isAdult: true,
@@ -23,4 +25,3 @@ if(((smy.isAdult || smy.VIP) && smy.isDrunken) || smy.money){
 }else{
   console.log('no');
 }
-

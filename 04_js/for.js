@@ -12,6 +12,6 @@ for(let index = 0; index < 10; index += 1){
 for(let i = 0; i < 3; i += 1){
   console.log(`상위 for문 입니다. ${i+1}번째 작동 중`);
   for(let j = 0; j < 5; j +=1){
-    console.log(`   하위 for문 입니다. i는 ${i}, j는 ${j}입니다`);
+    console.log(`   하위 for문 입니다. i는 ${i+1}, j는 ${j+1}입니다`);
   }
 }
