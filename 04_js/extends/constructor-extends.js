@@ -25,3 +25,5 @@ ElecCar.prototype.constructor = ElecCar;
   
 const tesla = new ElecCar('tesla', 'white', 'electricity');  
 tesla.drive();
+
+console.log(tesla instanceof Object);
