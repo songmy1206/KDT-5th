@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .orange{background-color: orange;}
+    .skyblue{background-color: skyblue;}
+  </style>
+</head>
+<body>
+  <div class="box1">box1</div>
+  <div class="box2" onclick="changeColor()"">box2</div>
+</body>
+<script>
+  const box1El = document.querySelector(".box1");
+
+  function changeColor2(){
+    if(box1El.classList.contains("orange")){
+      box1El.classList.remove("orange");
+      box1El.classList.add("skyblue");
+    }else if(box1El.classList.contains("skyblue")){
+      box1El.classList.remove("skyblue");
+      box1El.classList.add("orange");
+    }else{
+      box1El.classList.add("orange");
+    }
+  }
+  box1El.addEventListener("click", changeColor2);
+  
+  /**
+  box1El.addEventListener("click", function(){
+    if(box1El.classList.contains("orange")){
+      box1El.classList.remove("orange");
+      box1El.classList.add("skyblue");
+    }else if(box1El.classList.contains("skyblue")){
+      box1El.classList.remove("skyblue");
+      box1El.classList.add("orange");
+    }else{
+      box1El.classList.add("orange");
+    }
+  });
+  */
+
+  const box2El = document.querySelector(".box2");
+
+  function changeColor(){
+    if(box2El.classList.contains("orange")){
+      box2El.classList.remove("orange");
+      box2El.classList.add("skyblue");
+    }else if(box2El.classList.contains("skyblue")){
+      box2El.classList.remove("skyblue");
+      box2El.classList.add("orange");
+    }else{
+      box2El.classList.add("orange");
+    }
+  }
+</script>
+</html>
