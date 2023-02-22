@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    window.localStorage.setItem("number1", "1");
+    window.localStorage.setItem("number2", "2");
+    window.localStorage.setItem("number3", "3");
+    window.localStorage.setItem("number4", "4");
+    window.localStorage.setItem("number5", "5");
+
+    for(let i=0; i<window.localStorage.length; i++){
+      // const key = window.localStorage.key(i);
+      // const value = window.localStorage.getItem(key);
+      // console.log(`key: ${key}, value: ${value}`);
+      console.log(`key: ${window.localStorage.key(i)}, value: ${window.localStorage.getItem(window.localStorage.key(i))}`);
+    }
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
