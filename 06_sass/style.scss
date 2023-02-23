@@ -1,6 +1,8 @@
 @import "reset";
 @import "mixin";
 
+
+
 $body-bg: #eee;
 $wrap-border: #ddd;
 $wrap__item-bg: #fff;
@@ -11,7 +13,7 @@ $btn-font: white;
 $wrap__item-shadow: 5px 5px 20px rgba(0, 0, 0, .1);
 
 /* main */
-body{background-color: $body-bg;}
+body{background-color: $body-bg; text-decoration: none;}
 .wrap{
   display: flex; justify-content: center; width: 100%; padding: 100px; border: $wrap-border; perspective: 600px;
 
@@ -31,7 +33,7 @@ body{background-color: $body-bg;}
     // @for $i from 1 to 5{
     //   &:nth-child(#{$i}){transition-delay: $interval * $i;}
     // }
-    
+    //
 
     h2{font: bold 30px/1 "arial"; margin-bottom: 20px; 
       @if $wrap__item-bg == #fff{color: $wrap__item_h2;

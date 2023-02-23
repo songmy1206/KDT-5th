@@ -16,6 +16,7 @@ a {
 /* main */
 body {
   background-color: #eee;
+  text-decoration: none;
 }
 
 .wrap {
